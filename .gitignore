@@ -1,0 +1,10 @@
+# OGF
+.ogf/
+
+# Python
+.venv/
+
+# Editor / OS
+.DS_Store
+node_modules/
+/references
