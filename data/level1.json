@@ -1,0 +1,67 @@
+{
+  "id": "level1",
+  "background": "assets/maps/level1.png",
+  "mapSize": { "width": 1280, "height": 720 },
+  "spawn": { "x": 128, "y": 600 },
+  "player": {
+    "characterId": "rahman",
+    "position": { "x": 128, "y": 600 },
+    "speed": 135,
+    "drawScale": 2,
+    "facing": "right",
+    "movementBounds": { "x": 32, "y": 0, "w": 1216, "h": 720 },
+    "controls": {
+      "left": ["ArrowLeft", "KeyA"],
+      "right": ["ArrowRight", "KeyD"]
+    }
+  },
+  "npcs": [
+    {
+      "id": "fia_level1",
+      "characterId": "fia",
+      "position": { "x": 1040, "y": 600 },
+      "drawScale": 2,
+      "facing": "left",
+      "animation": "idle_side"
+    }
+  ],
+  "memoryTriggers": [
+    {
+      "id": "memory_bumble_beginning_zone",
+      "dialogueId": "memory_bumble_beginning",
+      "shape": { "x": 410, "y": 430, "w": 220, "h": 230 },
+      "once": true
+    },
+    {
+      "id": "memory_uniqlo_first_meeting_zone",
+      "dialogueId": "memory_uniqlo_first_meeting",
+      "shape": { "x": 680, "y": 430, "w": 180, "h": 230 },
+      "once": true
+    },
+    {
+      "id": "memory_marugame_first_meal_zone",
+      "dialogueId": "memory_marugame_first_meal",
+      "shape": { "x": 920, "y": 430, "w": 190, "h": 230 },
+      "once": true
+    }
+  ],
+  "sceneExits": [
+    {
+      "id": "to_tuku_after_work",
+      "targetLevel": "level_tuku",
+      "shape": { "x": 1160, "y": 430, "w": 90, "h": 230 }
+    }
+  ],
+  "exits": {},
+  "zones": {
+    "memories": [
+      { "id": "memory_bumble_beginning_zone", "x": 410, "y": 430, "w": 220, "h": 230 },
+      { "id": "memory_uniqlo_first_meeting_zone", "x": 680, "y": 430, "w": 180, "h": 230 },
+      { "id": "memory_marugame_first_meal_zone", "x": 920, "y": 430, "w": 190, "h": 230 }
+    ]
+  },
+  "walkBounds": [],
+  "blockers": [],
+  "spawn_points": [],
+  "props": []
+}

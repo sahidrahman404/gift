@@ -1,0 +1,83 @@
+{
+  "target": "npc",
+  "mode": "single",
+  "prompt": "",
+  "role": "",
+  "input": "assets/sprites/the_road_to_september/fia_horror_sit_calm/raw/raw-sheet.png",
+  "threshold": 100,
+  "edge_threshold": 150,
+  "duration": 200,
+  "rows": 1,
+  "cols": 1,
+  "cell_size": 64,
+  "fit_scale": 0.85,
+  "trim_border": 4,
+  "edge_clean_depth": 3,
+  "align": "bottom",
+  "shared_scale": false,
+  "scale_strategy": "preserve",
+  "component_mode": "all",
+  "component_padding": 0,
+  "min_component_area": 1,
+  "edge_touch_margin": 0,
+  "frame_labels": [
+    "fia_horror_sit_calm-1"
+  ],
+  "frames": [
+    {
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "component_mode": "all",
+      "component_count": 1,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        324,
+        260,
+        918,
+        1058
+      ],
+      "edge_touch": false,
+      "output_size": [
+        64,
+        64
+      ],
+      "preserved_subject_size": [
+        31,
+        41
+      ],
+      "paste_position": [
+        324,
+        355
+      ],
+      "unclamped_paste_position": [
+        324,
+        355
+      ],
+      "paste_clamped": false,
+      "aligned_bbox": [
+        324,
+        355,
+        918,
+        1153
+      ],
+      "scale_changed": false,
+      "scale_strategy": "preserve",
+      "preserve_source_size": [
+        1246,
+        1246
+      ],
+      "shared_center_x": 621.0,
+      "shared_feet_y": 1153
+    }
+  ],
+  "edge_touch_frames": []
+}

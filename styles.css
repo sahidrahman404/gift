@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #111;
+  color: #ddd;
+  font-family: system-ui, sans-serif;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+canvas {
+  display: block;
+  background: #000;
+  image-rendering: pixelated;
+  max-width: 100%;
+  height: auto;
+}

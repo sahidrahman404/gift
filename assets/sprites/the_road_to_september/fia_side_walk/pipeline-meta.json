@@ -1,0 +1,248 @@
+{
+  "target": "player",
+  "mode": "walk",
+  "prompt": "",
+  "role": "",
+  "input": "assets/sprites/the_road_to_september/fia_side_walk/raw/raw-sheet.png",
+  "threshold": 100,
+  "edge_threshold": 150,
+  "duration": 140,
+  "rows": 2,
+  "cols": 2,
+  "cell_size": 64,
+  "fit_scale": 0.85,
+  "trim_border": 4,
+  "edge_clean_depth": 3,
+  "align": "feet",
+  "shared_scale": true,
+  "scale_strategy": "preserve",
+  "component_mode": "all",
+  "component_padding": 0,
+  "min_component_area": 1,
+  "edge_touch_margin": 0,
+  "frame_labels": [
+    "fia_side_walk-1",
+    "fia_side_walk-2",
+    "fia_side_walk-3",
+    "fia_side_walk-4"
+  ],
+  "frames": [
+    {
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "component_mode": "all",
+      "component_count": 1,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        263,
+        124,
+        420,
+        515
+      ],
+      "edge_touch": false,
+      "output_size": [
+        64,
+        64
+      ],
+      "preserved_subject_size": [
+        16,
+        40
+      ],
+      "paste_position": [
+        263,
+        182
+      ],
+      "unclamped_paste_position": [
+        263,
+        182
+      ],
+      "paste_clamped": false,
+      "aligned_bbox": [
+        263,
+        182,
+        420,
+        573
+      ],
+      "scale_changed": false,
+      "scale_strategy": "preserve",
+      "preserve_source_size": [
+        619,
+        619
+      ],
+      "shared_center_x": 341.5,
+      "shared_feet_y": 573
+    },
+    {
+      "grid": [
+        0,
+        1
+      ],
+      "source_box": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "component_mode": "all",
+      "component_count": 1,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        194,
+        124,
+        383,
+        515
+      ],
+      "edge_touch": false,
+      "output_size": [
+        64,
+        64
+      ],
+      "preserved_subject_size": [
+        20,
+        40
+      ],
+      "paste_position": [
+        247,
+        182
+      ],
+      "unclamped_paste_position": [
+        247,
+        182
+      ],
+      "paste_clamped": false,
+      "aligned_bbox": [
+        247,
+        182,
+        436,
+        573
+      ],
+      "scale_changed": false,
+      "scale_strategy": "preserve",
+      "preserve_source_size": [
+        619,
+        619
+      ],
+      "shared_center_x": 341.5,
+      "shared_feet_y": 573
+    },
+    {
+      "grid": [
+        1,
+        0
+      ],
+      "source_box": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "component_mode": "all",
+      "component_count": 1,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        252,
+        77,
+        441,
+        467
+      ],
+      "edge_touch": false,
+      "output_size": [
+        64,
+        64
+      ],
+      "preserved_subject_size": [
+        20,
+        40
+      ],
+      "paste_position": [
+        247,
+        183
+      ],
+      "unclamped_paste_position": [
+        247,
+        183
+      ],
+      "paste_clamped": false,
+      "aligned_bbox": [
+        247,
+        183,
+        436,
+        573
+      ],
+      "scale_changed": false,
+      "scale_strategy": "preserve",
+      "preserve_source_size": [
+        619,
+        619
+      ],
+      "shared_center_x": 341.5,
+      "shared_feet_y": 573
+    },
+    {
+      "grid": [
+        1,
+        1
+      ],
+      "source_box": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "component_mode": "all",
+      "component_count": 1,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        204,
+        77,
+        361,
+        467
+      ],
+      "edge_touch": false,
+      "output_size": [
+        64,
+        64
+      ],
+      "preserved_subject_size": [
+        16,
+        40
+      ],
+      "paste_position": [
+        263,
+        183
+      ],
+      "unclamped_paste_position": [
+        263,
+        183
+      ],
+      "paste_clamped": false,
+      "aligned_bbox": [
+        263,
+        183,
+        420,
+        573
+      ],
+      "scale_changed": false,
+      "scale_strategy": "preserve",
+      "preserve_source_size": [
+        619,
+        619
+      ],
+      "shared_center_x": 341.5,
+      "shared_feet_y": 573
+    }
+  ],
+  "edge_touch_frames": []
+}

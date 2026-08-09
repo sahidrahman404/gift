@@ -5,7 +5,7 @@
     "frame": { "w": 64, "h": 64 },
     "recommendedScale": 1,
     "sprites": {
-      "idle": "assets/sprites/forward_base_pack/bubu_idle/sheet-transparent.png"
+      "idle": "assets/sprites/the_road_to_september/bubu_idle/sheet-transparent.png"
     }
   },
   {
@@ -14,7 +14,7 @@
     "frame": { "w": 64, "h": 64 },
     "recommendedScale": 1,
     "sprites": {
-      "idle": "assets/sprites/forward_base_pack/cemplung_idle/sheet-transparent.png"
+      "idle": "assets/sprites/the_road_to_september/cemplung_idle/sheet-transparent.png"
     },
     "futureAnimationNotes": "Keep front-leg readability for fake injured-leg animation."
   },
@@ -24,7 +24,7 @@
     "frame": { "w": 64, "h": 64 },
     "recommendedScale": 1,
     "sprites": {
-      "idle": "assets/sprites/forward_base_pack/mumu_idle/sheet-transparent.png"
+      "idle": "assets/sprites/the_road_to_september/mumu_idle/sheet-transparent.png"
     }
   },
   {
@@ -33,7 +33,7 @@
     "frame": { "w": 64, "h": 64 },
     "recommendedScale": 1,
     "sprites": {
-      "idle": "assets/sprites/forward_base_pack/sisil_idle/sheet-transparent.png"
+      "idle": "assets/sprites/the_road_to_september/sisil_idle/sheet-transparent.png"
     }
   }
 ]

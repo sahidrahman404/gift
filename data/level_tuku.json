@@ -1,0 +1,70 @@
+{
+  "id": "level_tuku",
+  "background": "assets/maps/level_tuku.png",
+  "mapSize": { "width": 1280, "height": 720 },
+  "spawn": { "x": 128, "y": 600 },
+  "player": {
+    "characterId": "rahman",
+    "position": { "x": 128, "y": 600 },
+    "speed": 135,
+    "drawScale": 2,
+    "facing": "right",
+    "movementBounds": { "x": 32, "y": 0, "w": 1216, "h": 720 },
+    "controls": {
+      "left": ["ArrowLeft", "KeyA"],
+      "right": ["ArrowRight", "KeyD"]
+    }
+  },
+  "npcs": [
+    {
+      "id": "fia_tuku",
+      "characterId": "fia",
+      "position": { "x": 1040, "y": 600 },
+      "drawScale": 2,
+      "facing": "left",
+      "animation": "idle_side"
+    }
+  ],
+  "memoryTriggers": [
+    {
+      "id": "memory_tuku_after_work_zone",
+      "dialogueId": "memory_tuku_after_work",
+      "shape": { "x": 430, "y": 430, "w": 250, "h": 230 },
+      "once": true
+    },
+    {
+      "id": "memory_honda_beat_rides_zone",
+      "dialogueId": "memory_honda_beat_rides",
+      "shape": { "x": 780, "y": 430, "w": 260, "h": 230 },
+      "once": true
+    }
+  ],
+  "sceneExits": [
+    {
+      "id": "to_cat_trust_progression",
+      "targetLevel": "level_cats",
+      "shape": { "x": 1160, "y": 430, "w": 90, "h": 230 }
+    }
+  ],
+  "exits": {},
+  "zones": {
+    "memories": [
+      { "id": "memory_tuku_after_work_zone", "x": 430, "y": 430, "w": 250, "h": 230 },
+      { "id": "memory_honda_beat_rides_zone", "x": 780, "y": 430, "w": 260, "h": 230 }
+    ]
+  },
+  "walkBounds": [],
+  "blockers": [],
+  "spawn_points": [],
+  "props": [
+    {
+      "id": "honda_beat_memory_scooter_level_tuku",
+      "image": "assets/sprites/the_road_to_september/honda_beat_memory_scooter/sheet-transparent.png",
+      "x": 228,
+      "y": 611,
+      "w": 128,
+      "h": 128,
+      "sortY": 596
+    }
+  ]
+}

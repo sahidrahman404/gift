@@ -1,0 +1,20 @@
+[
+  {
+    "id": "shared_cinema_chair",
+    "displayName": "Shared cinema chair",
+    "frame": { "w": 64, "h": 64 },
+    "recommendedScale": 2,
+    "sprite": "assets/sprites/the_road_to_september/shared_cinema_chair/sheet-transparent.png",
+    "meta": "assets/sprites/the_road_to_september/shared_cinema_chair/pipeline-meta.json",
+    "notes": "Canonical chair design for both Rahman and Fia horror sitting poses. Do not redesign between scenes."
+  },
+  {
+    "id": "honda_beat_memory_scooter",
+    "displayName": "Honda Beat memory scooter",
+    "frame": { "w": 64, "h": 64 },
+    "recommendedScale": 2,
+    "sprite": "assets/sprites/the_road_to_september/honda_beat_memory_scooter/sheet-transparent.png",
+    "meta": "assets/sprites/the_road_to_september/honda_beat_memory_scooter/pipeline-meta.json",
+    "notes": "Generic side-view scooter prop for Rahman and Fia's ordinary after-work Honda Beat ride memories. No exact logo reproduction."
+  }
+]

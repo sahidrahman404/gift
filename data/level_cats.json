@@ -1,0 +1,92 @@
+{
+  "id": "level_cats",
+  "background": "assets/maps/level1.png",
+  "mapSize": { "width": 1280, "height": 720 },
+  "spawn": { "x": 128, "y": 600 },
+  "player": {
+    "characterId": "rahman",
+    "position": { "x": 128, "y": 600 },
+    "speed": 135,
+    "drawScale": 2,
+    "facing": "right",
+    "movementBounds": { "x": 32, "y": 0, "w": 1216, "h": 720 },
+    "controls": {
+      "left": ["ArrowLeft", "KeyA"],
+      "right": ["ArrowRight", "KeyD"]
+    }
+  },
+  "npcs": [
+    {
+      "id": "cemplung_cat_trust",
+      "characterId": "cemplung",
+      "position": { "x": 330, "y": 604 },
+      "drawScale": 1.6,
+      "facing": "right",
+      "animation": "idle"
+    },
+    {
+      "id": "mumu_cat_trust",
+      "characterId": "mumu",
+      "position": { "x": 560, "y": 604 },
+      "drawScale": 1.6,
+      "facing": "right",
+      "animation": "idle"
+    },
+    {
+      "id": "sisil_cat_trust",
+      "characterId": "sisil",
+      "position": { "x": 790, "y": 604 },
+      "drawScale": 1.6,
+      "facing": "left",
+      "animation": "idle"
+    },
+    {
+      "id": "bubu_cat_trust",
+      "characterId": "bubu",
+      "position": { "x": 1020, "y": 604 },
+      "drawScale": 1.6,
+      "facing": "left",
+      "animation": "idle"
+    }
+  ],
+  "memoryTriggers": [
+    {
+      "id": "memory_cat_cemplung_zone",
+      "dialogueId": "memory_cat_cemplung",
+      "shape": { "x": 260, "y": 430, "w": 150, "h": 230 },
+      "once": true
+    },
+    {
+      "id": "memory_cat_mumu_zone",
+      "dialogueId": "memory_cat_mumu",
+      "shape": { "x": 490, "y": 430, "w": 150, "h": 230 },
+      "once": true
+    },
+    {
+      "id": "memory_cat_sisil_zone",
+      "dialogueId": "memory_cat_sisil",
+      "shape": { "x": 720, "y": 430, "w": 150, "h": 230 },
+      "once": true
+    },
+    {
+      "id": "memory_cat_bubu_zone",
+      "dialogueId": "memory_cat_bubu",
+      "shape": { "x": 950, "y": 430, "w": 150, "h": 230 },
+      "once": true
+    }
+  ],
+  "sceneExits": [],
+  "exits": {},
+  "zones": {
+    "memories": [
+      { "id": "memory_cat_cemplung_zone", "x": 260, "y": 430, "w": 150, "h": 230 },
+      { "id": "memory_cat_mumu_zone", "x": 490, "y": 430, "w": 150, "h": 230 },
+      { "id": "memory_cat_sisil_zone", "x": 720, "y": 430, "w": 150, "h": 230 },
+      { "id": "memory_cat_bubu_zone", "x": 950, "y": 430, "w": 150, "h": 230 }
+    ]
+  },
+  "walkBounds": [],
+  "blockers": [],
+  "spawn_points": [],
+  "props": []
+}

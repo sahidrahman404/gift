@@ -1,0 +1,7 @@
+{
+  "levels": [
+    { "id": "level1", "file": "data/level1.json" },
+    { "id": "level_tuku", "file": "data/level_tuku.json" },
+    { "id": "level_cats", "file": "data/level_cats.json" }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "backgrounds": [
+    {
+      "key": "road_night",
+      "image": "assets/maps/the_road_to_september/road_night.png",
+      "prompt": "assets/maps/the_road_to_september/road_night.prompt.txt",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "key": "uniqlo",
+      "image": "assets/maps/the_road_to_september/uniqlo.png",
+      "prompt": "assets/maps/the_road_to_september/uniqlo.prompt.txt",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "key": "marugame",
+      "image": "assets/maps/the_road_to_september/marugame.png",
+      "prompt": "assets/maps/the_road_to_september/marugame.prompt.txt",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "key": "cinema",
+      "image": "assets/maps/the_road_to_september/cinema.png",
+      "prompt": "assets/maps/the_road_to_september/cinema.prompt.txt",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "key": "cinema_hall",
+      "image": "assets/maps/the_road_to_september/cinema_hall.png",
+      "prompt": "assets/maps/the_road_to_september/cinema_hall.prompt.txt",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "key": "her_kitchen",
+      "image": "assets/maps/the_road_to_september/her_kitchen.png",
+      "prompt": "assets/maps/the_road_to_september/her_kitchen.prompt.txt",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "key": "street_food",
+      "image": "assets/maps/the_road_to_september/street_food.png",
+      "prompt": "assets/maps/the_road_to_september/street_food.prompt.txt",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "key": "berselesa",
+      "image": "assets/maps/the_road_to_september/berselesa.png",
+      "prompt": "assets/maps/the_road_to_september/berselesa.prompt.txt",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "key": "kintaro",
+      "image": "assets/maps/the_road_to_september/kintaro.png",
+      "prompt": "assets/maps/the_road_to_september/kintaro.prompt.txt",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "key": "tuku",
+      "image": "assets/maps/the_road_to_september/tuku.png",
+      "prompt": "assets/maps/the_road_to_september/tuku.prompt.txt",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "key": "her_home",
+      "image": "assets/maps/the_road_to_september/her_home.png",
+      "prompt": "assets/maps/the_road_to_september/her_home.prompt.txt",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "key": "open_road",
+      "image": "assets/maps/the_road_to_september/open_road.png",
+      "prompt": "assets/maps/the_road_to_september/open_road.prompt.txt",
+      "size": [
+        1280,
+        720
+      ]
+    }
+  ]
+}

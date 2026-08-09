@@ -1,0 +1,62 @@
+{
+  "target": "asset",
+  "mode": "single",
+  "prompt": "Same Honda Beat memory scooter prop, side-view, facing right, black Honda Beat bodywork, preserve existing silhouette and project-native cozy pixel art.",
+  "role": "",
+  "input": "/home/rahman/.codex/generated_images/019fe727-de6d-71b2-abf9-6456b4020780/call_GgcZL5XLPEF6fldzcZMzz7fG.png",
+  "threshold": 100,
+  "edge_threshold": 150,
+  "duration": 200,
+  "rows": 1,
+  "cols": 1,
+  "cell_size": 64,
+  "fit_scale": 0.88,
+  "trim_border": 4,
+  "edge_clean_depth": 3,
+  "align": "bottom",
+  "shared_scale": false,
+  "scale_strategy": "fit",
+  "component_mode": "all",
+  "component_padding": 0,
+  "min_component_area": 1,
+  "edge_touch_margin": 0,
+  "frame_labels": [
+    "single-1"
+  ],
+  "frames": [
+    {
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "component_mode": "all",
+      "component_count": 2,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        124,
+        238,
+        1100,
+        960
+      ],
+      "edge_touch": false,
+      "output_size": [
+        56,
+        41
+      ],
+      "paste_position": [
+        4,
+        20
+      ],
+      "scale_strategy": "fit",
+      "scale_changed": true
+    }
+  ],
+  "edge_touch_frames": []
+}

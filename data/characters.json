@@ -5,9 +5,23 @@
     "role": "player",
     "frame": { "w": 64, "h": 64 },
     "recommendedScale": 1,
-    "sprites": {
-      "idle_front": "assets/sprites/forward_base_pack/rahman_front_idle/sheet-transparent.png",
-      "idle_side": "assets/sprites/forward_base_pack/rahman_side_idle/sheet-transparent.png"
+    "animations": {
+      "idle_front": {
+        "sheet": "assets/sprites/the_road_to_september/rahman_front_idle/sheet-transparent.png",
+        "meta": "assets/sprites/the_road_to_september/rahman_front_idle/pipeline-meta.json"
+      },
+      "idle_side": {
+        "sheet": "assets/sprites/the_road_to_september/rahman_side_idle/sheet-transparent.png",
+        "meta": "assets/sprites/the_road_to_september/rahman_side_idle/pipeline-meta.json"
+      },
+      "walk_side": {
+        "sheet": "assets/sprites/the_road_to_september/rahman_side_walk/sheet-transparent.png",
+        "meta": "assets/sprites/the_road_to_september/rahman_side_walk/pipeline-meta.json"
+      },
+      "horror_sit_scared": {
+        "sheet": "assets/sprites/the_road_to_september/rahman_horror_sit_scared/sheet-transparent.png",
+        "meta": "assets/sprites/the_road_to_september/rahman_horror_sit_scared/pipeline-meta.json"
+      }
     }
   },
   {
@@ -16,9 +30,75 @@
     "role": "npc",
     "frame": { "w": 64, "h": 64 },
     "recommendedScale": 1,
-    "sprites": {
-      "idle_front": "assets/sprites/forward_base_pack/fia_front_idle/sheet-transparent.png",
-      "idle_side": "assets/sprites/forward_base_pack/fia_side_idle/sheet-transparent.png"
+    "animations": {
+      "idle_front": {
+        "sheet": "assets/sprites/the_road_to_september/fia_front_idle/sheet-transparent.png",
+        "meta": "assets/sprites/the_road_to_september/fia_front_idle/pipeline-meta.json"
+      },
+      "idle_side": {
+        "sheet": "assets/sprites/the_road_to_september/fia_side_idle/sheet-transparent.png",
+        "meta": "assets/sprites/the_road_to_september/fia_side_idle/pipeline-meta.json"
+      },
+      "walk_side": {
+        "sheet": "assets/sprites/the_road_to_september/fia_side_walk/sheet-transparent.png",
+        "meta": "assets/sprites/the_road_to_september/fia_side_walk/pipeline-meta.json"
+      },
+      "horror_sit_calm": {
+        "sheet": "assets/sprites/the_road_to_september/fia_horror_sit_calm/sheet-transparent.png",
+        "meta": "assets/sprites/the_road_to_september/fia_horror_sit_calm/pipeline-meta.json"
+      }
+    }
+  },
+  {
+    "id": "cemplung",
+    "displayName": "Cemplung",
+    "role": "cat",
+    "frame": { "w": 64, "h": 64 },
+    "recommendedScale": 1.6,
+    "animations": {
+      "idle": {
+        "sheet": "assets/sprites/the_road_to_september/cemplung_idle/sheet-transparent.png",
+        "meta": "assets/sprites/the_road_to_september/cemplung_idle/pipeline-meta.json"
+      }
+    }
+  },
+  {
+    "id": "mumu",
+    "displayName": "Mumu",
+    "role": "cat",
+    "frame": { "w": 64, "h": 64 },
+    "recommendedScale": 1.6,
+    "animations": {
+      "idle": {
+        "sheet": "assets/sprites/the_road_to_september/mumu_idle/sheet-transparent.png",
+        "meta": "assets/sprites/the_road_to_september/mumu_idle/pipeline-meta.json"
+      }
+    }
+  },
+  {
+    "id": "sisil",
+    "displayName": "Sisil",
+    "role": "cat",
+    "frame": { "w": 64, "h": 64 },
+    "recommendedScale": 1.6,
+    "animations": {
+      "idle": {
+        "sheet": "assets/sprites/the_road_to_september/sisil_idle/sheet-transparent.png",
+        "meta": "assets/sprites/the_road_to_september/sisil_idle/pipeline-meta.json"
+      }
+    }
+  },
+  {
+    "id": "bubu",
+    "displayName": "Bubu",
+    "role": "cat",
+    "frame": { "w": 64, "h": 64 },
+    "recommendedScale": 1.6,
+    "animations": {
+      "idle": {
+        "sheet": "assets/sprites/the_road_to_september/bubu_idle/sheet-transparent.png",
+        "meta": "assets/sprites/the_road_to_september/bubu_idle/pipeline-meta.json"
+      }
     }
   }
 ]
