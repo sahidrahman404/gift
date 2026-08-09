@@ -1,0 +1,83 @@
+{
+  "target": "creature",
+  "mode": "single",
+  "prompt": "Bubu cat idle base sprite, cozy retro pixel art, gray-white long-haired fluffy cat, transparent-ready magenta background.",
+  "role": "",
+  "input": "assets/sprites/forward_base_pack/bubu_idle/raw/raw-sheet.png",
+  "threshold": 100,
+  "edge_threshold": 150,
+  "duration": 200,
+  "rows": 1,
+  "cols": 1,
+  "cell_size": 64,
+  "fit_scale": 0.85,
+  "trim_border": 4,
+  "edge_clean_depth": 3,
+  "align": "feet",
+  "shared_scale": false,
+  "scale_strategy": "preserve",
+  "component_mode": "all",
+  "component_padding": 0,
+  "min_component_area": 1,
+  "edge_touch_margin": 0,
+  "frame_labels": [
+    "bubu_idle-1"
+  ],
+  "frames": [
+    {
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "component_mode": "all",
+      "component_count": 1,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        195,
+        357,
+        1097,
+        921
+      ],
+      "edge_touch": false,
+      "output_size": [
+        64,
+        64
+      ],
+      "preserved_subject_size": [
+        46,
+        29
+      ],
+      "paste_position": [
+        195,
+        589
+      ],
+      "unclamped_paste_position": [
+        195,
+        589
+      ],
+      "paste_clamped": false,
+      "aligned_bbox": [
+        195,
+        589,
+        1097,
+        1153
+      ],
+      "scale_changed": false,
+      "scale_strategy": "preserve",
+      "preserve_source_size": [
+        1246,
+        1246
+      ],
+      "shared_center_x": 646.0,
+      "shared_feet_y": 1153
+    }
+  ],
+  "edge_touch_frames": []
+}

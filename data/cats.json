@@ -1,0 +1,39 @@
+[
+  {
+    "id": "bubu",
+    "displayName": "Bubu",
+    "frame": { "w": 64, "h": 64 },
+    "recommendedScale": 1,
+    "sprites": {
+      "idle": "assets/sprites/forward_base_pack/bubu_idle/sheet-transparent.png"
+    }
+  },
+  {
+    "id": "cemplung",
+    "displayName": "Cemplung",
+    "frame": { "w": 64, "h": 64 },
+    "recommendedScale": 1,
+    "sprites": {
+      "idle": "assets/sprites/forward_base_pack/cemplung_idle/sheet-transparent.png"
+    },
+    "futureAnimationNotes": "Keep front-leg readability for fake injured-leg animation."
+  },
+  {
+    "id": "mumu",
+    "displayName": "Mumu",
+    "frame": { "w": 64, "h": 64 },
+    "recommendedScale": 1,
+    "sprites": {
+      "idle": "assets/sprites/forward_base_pack/mumu_idle/sheet-transparent.png"
+    }
+  },
+  {
+    "id": "sisil",
+    "displayName": "Sisil",
+    "frame": { "w": 64, "h": 64 },
+    "recommendedScale": 1,
+    "sprites": {
+      "idle": "assets/sprites/forward_base_pack/sisil_idle/sheet-transparent.png"
+    }
+  }
+]

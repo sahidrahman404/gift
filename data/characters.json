@@ -1,0 +1,24 @@
+[
+  {
+    "id": "rahman",
+    "displayName": "Rahman",
+    "role": "player",
+    "frame": { "w": 64, "h": 64 },
+    "recommendedScale": 1,
+    "sprites": {
+      "idle_front": "assets/sprites/forward_base_pack/rahman_front_idle/sheet-transparent.png",
+      "idle_side": "assets/sprites/forward_base_pack/rahman_side_idle/sheet-transparent.png"
+    }
+  },
+  {
+    "id": "fia",
+    "displayName": "Fia",
+    "role": "npc",
+    "frame": { "w": 64, "h": 64 },
+    "recommendedScale": 1,
+    "sprites": {
+      "idle_front": "assets/sprites/forward_base_pack/fia_front_idle/sheet-transparent.png",
+      "idle_side": "assets/sprites/forward_base_pack/fia_side_idle/sheet-transparent.png"
+    }
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "target": "npc",
+  "mode": "single",
+  "prompt": "Fia side idle regenerated to remove right-side crop; cozy retro pixel art, brown hijab, deep indigo jacket, shorter than Rahman, transparent-ready magenta background.",
+  "role": "",
+  "input": "assets/sprites/forward_base_pack/fia_side_idle/raw-sheet.png",
+  "threshold": 100,
+  "edge_threshold": 150,
+  "duration": 200,
+  "rows": 1,
+  "cols": 1,
+  "cell_size": 64,
+  "fit_scale": 0.85,
+  "trim_border": 4,
+  "edge_clean_depth": 3,
+  "align": "feet",
+  "shared_scale": false,
+  "scale_strategy": "preserve",
+  "component_mode": "all",
+  "component_padding": 0,
+  "min_component_area": 1,
+  "edge_touch_margin": 0,
+  "frame_labels": [
+    "fia_side_idle-1"
+  ],
+  "frames": [
+    {
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "component_mode": "all",
+      "component_count": 1,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        335,
+        297,
+        602,
+        966
+      ],
+      "edge_touch": false,
+      "output_size": [
+        64,
+        64
+      ],
+      "preserved_subject_size": [
+        19,
+        47
+      ],
+      "paste_position": [
+        335,
+        484
+      ],
+      "unclamped_paste_position": [
+        335,
+        484
+      ],
+      "paste_clamped": false,
+      "aligned_bbox": [
+        335,
+        484,
+        602,
+        1153
+      ],
+      "scale_changed": false,
+      "scale_strategy": "preserve",
+      "preserve_source_size": [
+        1246,
+        1246
+      ],
+      "shared_center_x": 468.5,
+      "shared_feet_y": 1153,
+      "normalized_subject_size": [
+        19,
+        47
+      ],
+      "normalization": {
+        "reason": "Fia adjusted to be only slightly shorter than Rahman canon.",
+        "old_subject_size": [
+          15,
+          38
+        ],
+        "new_subject_size": [
+          19,
+          47
+        ],
+        "paste_position": [
+          22,
+          13
+        ],
+        "right_margin": 23,
+        "method": "nearest-neighbor deterministic transparent-frame reprocess"
+      }
+    }
+  ],
+  "edge_touch_frames": [],
+  "manual_reprocess": "Fia adjusted to be only slightly shorter than Rahman canon."
+}

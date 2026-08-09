@@ -1,0 +1,83 @@
+{
+  "target": "player",
+  "mode": "single",
+  "prompt": "Rahman front idle base sprite, cozy retro pixel art, brown jacket, transparent-ready magenta background.",
+  "role": "",
+  "input": "assets/sprites/forward_base_pack/rahman_front_idle/raw/raw-sheet.png",
+  "threshold": 100,
+  "edge_threshold": 150,
+  "duration": 200,
+  "rows": 1,
+  "cols": 1,
+  "cell_size": 64,
+  "fit_scale": 0.85,
+  "trim_border": 4,
+  "edge_clean_depth": 3,
+  "align": "feet",
+  "shared_scale": false,
+  "scale_strategy": "preserve",
+  "component_mode": "all",
+  "component_padding": 0,
+  "min_component_area": 1,
+  "edge_touch_margin": 0,
+  "frame_labels": [
+    "rahman_front_idle-1"
+  ],
+  "frames": [
+    {
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "component_mode": "all",
+      "component_count": 1,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        263,
+        175,
+        753,
+        1363
+      ],
+      "edge_touch": false,
+      "output_size": [
+        64,
+        64
+      ],
+      "preserved_subject_size": [
+        31,
+        50
+      ],
+      "paste_position": [
+        263,
+        226
+      ],
+      "unclamped_paste_position": [
+        263,
+        226
+      ],
+      "paste_clamped": false,
+      "aligned_bbox": [
+        263,
+        226,
+        753,
+        1414
+      ],
+      "scale_changed": false,
+      "scale_strategy": "preserve",
+      "preserve_source_size": [
+        1016,
+        1528
+      ],
+      "shared_center_x": 508.0,
+      "shared_feet_y": 1414
+    }
+  ],
+  "edge_touch_frames": []
+}
