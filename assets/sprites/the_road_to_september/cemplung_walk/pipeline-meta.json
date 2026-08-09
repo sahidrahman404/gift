@@ -1,0 +1,248 @@
+{
+  "target": "creature",
+  "mode": "walk",
+  "prompt": "",
+  "role": "",
+  "input": "assets/sprites/the_road_to_september/cemplung_walk/raw-sheet.png",
+  "threshold": 100,
+  "edge_threshold": 150,
+  "duration": 180,
+  "rows": 2,
+  "cols": 2,
+  "cell_size": 128,
+  "fit_scale": 0.82,
+  "trim_border": 4,
+  "edge_clean_depth": 3,
+  "align": "feet",
+  "shared_scale": true,
+  "scale_strategy": "preserve",
+  "component_mode": "all",
+  "component_padding": 0,
+  "min_component_area": 1,
+  "edge_touch_margin": 0,
+  "frame_labels": [
+    "cemplung_walk-1",
+    "cemplung_walk-2",
+    "cemplung_walk-3",
+    "cemplung_walk-4"
+  ],
+  "frames": [
+    {
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "component_mode": "all",
+      "component_count": 3,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        176,
+        263,
+        557,
+        564
+      ],
+      "edge_touch": false,
+      "output_size": [
+        128,
+        128
+      ],
+      "preserved_subject_size": [
+        79,
+        62
+      ],
+      "paste_position": [
+        174,
+        263
+      ],
+      "unclamped_paste_position": [
+        174,
+        263
+      ],
+      "paste_clamped": false,
+      "aligned_bbox": [
+        174,
+        263,
+        555,
+        564
+      ],
+      "scale_changed": false,
+      "scale_strategy": "preserve",
+      "preserve_source_size": [
+        619,
+        619
+      ],
+      "shared_center_x": 365.0,
+      "shared_feet_y": 564
+    },
+    {
+      "grid": [
+        0,
+        1
+      ],
+      "source_box": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "component_mode": "all",
+      "component_count": 2,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        58,
+        269,
+        467,
+        564
+      ],
+      "edge_touch": false,
+      "output_size": [
+        128,
+        128
+      ],
+      "preserved_subject_size": [
+        85,
+        61
+      ],
+      "paste_position": [
+        160,
+        269
+      ],
+      "unclamped_paste_position": [
+        160,
+        269
+      ],
+      "paste_clamped": false,
+      "aligned_bbox": [
+        160,
+        269,
+        569,
+        564
+      ],
+      "scale_changed": false,
+      "scale_strategy": "preserve",
+      "preserve_source_size": [
+        619,
+        619
+      ],
+      "shared_center_x": 365.0,
+      "shared_feet_y": 564
+    },
+    {
+      "grid": [
+        1,
+        0
+      ],
+      "source_box": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "component_mode": "all",
+      "component_count": 2,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        163,
+        64,
+        567,
+        363
+      ],
+      "edge_touch": false,
+      "output_size": [
+        128,
+        128
+      ],
+      "preserved_subject_size": [
+        84,
+        62
+      ],
+      "paste_position": [
+        163,
+        265
+      ],
+      "unclamped_paste_position": [
+        163,
+        265
+      ],
+      "paste_clamped": false,
+      "aligned_bbox": [
+        163,
+        265,
+        567,
+        564
+      ],
+      "scale_changed": false,
+      "scale_strategy": "preserve",
+      "preserve_source_size": [
+        619,
+        619
+      ],
+      "shared_center_x": 365.0,
+      "shared_feet_y": 564
+    },
+    {
+      "grid": [
+        1,
+        1
+      ],
+      "source_box": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "component_mode": "all",
+      "component_count": 3,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        57,
+        70,
+        466,
+        363
+      ],
+      "edge_touch": false,
+      "output_size": [
+        128,
+        128
+      ],
+      "preserved_subject_size": [
+        85,
+        61
+      ],
+      "paste_position": [
+        160,
+        271
+      ],
+      "unclamped_paste_position": [
+        160,
+        271
+      ],
+      "paste_clamped": false,
+      "aligned_bbox": [
+        160,
+        271,
+        569,
+        564
+      ],
+      "scale_changed": false,
+      "scale_strategy": "preserve",
+      "preserve_source_size": [
+        619,
+        619
+      ],
+      "shared_center_x": 365.0,
+      "shared_feet_y": 564
+    }
+  ],
+  "edge_touch_frames": []
+}

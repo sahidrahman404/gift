@@ -1,0 +1,164 @@
+{
+  "target": "asset",
+  "mode": "run",
+  "prompt": "Create ONE sprite animation sheet for the same two-up scooter couple shown in the reference images. Preserve the black Honda BeAT-like scooter silhouette, the man driving in front with brown jacket and dark hair, the woman sitting behind with brown hair and deep indigo denim jacket, cozy romantic relationship-game tone, warm handcrafted pixel-art palette, crisp dark outlines, and side-view facing right. Action: running scooter loop, side-view, facing right. EXACTLY 4 equal cells arranged as a 2 rows x 2 columns grid. Background must be 100% solid flat #FF00FF magenta in every cell.",
+  "role": "",
+  "input": "assets/sprites/the_road_to_september/two_up_scooter_run/raw-sheet.png",
+  "threshold": 100,
+  "edge_threshold": 150,
+  "duration": 140,
+  "rows": 2,
+  "cols": 2,
+  "cell_size": 128,
+  "fit_scale": 0.88,
+  "trim_border": 4,
+  "edge_clean_depth": 3,
+  "align": "bottom",
+  "shared_scale": true,
+  "scale_strategy": "fit",
+  "component_mode": "all",
+  "component_padding": 0,
+  "min_component_area": 1,
+  "edge_touch_margin": 0,
+  "frame_labels": [
+    "two_up_scooter_run-1",
+    "two_up_scooter_run-2",
+    "two_up_scooter_run-3",
+    "two_up_scooter_run-4"
+  ],
+  "frames": [
+    {
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "component_mode": "all",
+      "component_count": 1,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        131,
+        145,
+        568,
+        556
+      ],
+      "edge_touch": false,
+      "output_size": [
+        112,
+        105
+      ],
+      "paste_position": [
+        8,
+        16
+      ],
+      "scale_strategy": "fit",
+      "scale_changed": true
+    },
+    {
+      "grid": [
+        0,
+        1
+      ],
+      "source_box": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "component_mode": "all",
+      "component_count": 1,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        79,
+        166,
+        513,
+        567
+      ],
+      "edge_touch": false,
+      "output_size": [
+        111,
+        103
+      ],
+      "paste_position": [
+        8,
+        18
+      ],
+      "scale_strategy": "fit",
+      "scale_changed": true
+    },
+    {
+      "grid": [
+        1,
+        0
+      ],
+      "source_box": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "component_mode": "all",
+      "component_count": 2,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        131,
+        37,
+        568,
+        462
+      ],
+      "edge_touch": false,
+      "output_size": [
+        112,
+        109
+      ],
+      "paste_position": [
+        8,
+        12
+      ],
+      "scale_strategy": "fit",
+      "scale_changed": true
+    },
+    {
+      "grid": [
+        1,
+        1
+      ],
+      "source_box": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "component_mode": "all",
+      "component_count": 1,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        79,
+        65,
+        513,
+        462
+      ],
+      "edge_touch": false,
+      "output_size": [
+        111,
+        102
+      ],
+      "paste_position": [
+        8,
+        19
+      ],
+      "scale_strategy": "fit",
+      "scale_changed": true
+    }
+  ],
+  "edge_touch_frames": []
+}

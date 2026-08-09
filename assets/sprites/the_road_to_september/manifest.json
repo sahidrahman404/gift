@@ -3,6 +3,7 @@
   "locked_ride_description": "A young couple riding two-up on a single black Honda BeAT scooter, side view, facing right. The man rides in front, hands on the handlebars. The woman sits behind him, arms around his waist. She wears a deep indigo denim jacket \u2014 her signature look. Both are content, relaxed. Small pixel-art scooter, cozy and characterful.",
   "sprites": {
     "two_up_scooter": "assets/sprites/the_road_to_september/two_up_scooter/sheet-transparent.png",
+    "two_up_scooter_run": "assets/sprites/the_road_to_september/two_up_scooter_run/sheet-transparent.png",
     "alone_scooter": "assets/sprites/the_road_to_september/alone_scooter/sheet-transparent.png"
   },
   "cats": {
@@ -10,5 +11,11 @@
     "mumu": "assets/sprites/the_road_to_september/mumu_idle/sheet-transparent.png",
     "sisil": "assets/sprites/the_road_to_september/sisil_idle/sheet-transparent.png",
     "cemplung": "assets/sprites/the_road_to_september/cemplung_idle/sheet-transparent.png"
+  },
+  "cat_walks": {
+    "bubu": "assets/sprites/the_road_to_september/bubu_walk/sheet-transparent.png",
+    "mumu": "assets/sprites/the_road_to_september/mumu_walk/sheet-transparent.png",
+    "sisil": "assets/sprites/the_road_to_september/sisil_walk/sheet-transparent.png",
+    "cemplung": "assets/sprites/the_road_to_september/cemplung_walk/sheet-transparent.png"
   }
 }

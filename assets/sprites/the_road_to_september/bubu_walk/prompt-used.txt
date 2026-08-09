@@ -1,0 +1,9 @@
+Generate raw sprite art for the Open Game Forge generate2dsprite procedure.
+
+Asset: Bubu cat walk animation sheet, one creature asset only. Use the existing Bubu idle sprite as the visual reference. Preserve Bubu's identity: same small cat silhouette family, fluffy tabby coat, cream face/chest, dark striped tail, alert ears, cozy pixel-art rendering, crisp dark outline, and same approximate body size as the reference. Only change the pose into a side-view walking cycle.
+
+Style directive: Cozy nostalgic pixel art with warm peach evening light, soft browns, deep indigo, amber highlights, crisp dark outlines, and a personal indie birthday-game tone. Visual references are the approved assets/sprites/the_road_to_september/ character sprites and the relationship handoff.
+
+Exact sheet requirements: 2 rows x 2 columns, four equal invisible cells, a loopable side-view walking cycle facing right. Frame poses should read as: front paw forward, passing pose, rear paw forward, passing pose, with subtle tail sway. The cat body must stay centered in each cell, full body inside the central 60% to 70% safe area, consistent scale across cells, stable feet/bottom anchor line, no paw, ear, tail tip, whisker, shadow, or detached effect crossing cell edges. Leave generous magenta margin on all four sides.
+
+Background must be 100% solid flat #FF00FF magenta. No gradients, no text, no labels, no UI, no borders or frames between cells. Same cat identity and same pixel scale in every frame.
