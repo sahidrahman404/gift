@@ -1,1 +1,1 @@
-Same character corrected Fia side idle: warm brown hijab, deep indigo jeans jacket, black jeans pants, white sneakers; preserve Fia identity from references; side-view 2x2 pixel-art idle sheet on solid #FF00FF.
+Same character Fia side idle matched to fia_side_walk neutral frame: warm brown hijab, deep indigo jeans jacket, black jeans pants, white sneakers; match walk frame body height and outfit exactly; side-view 2x2 pixel-art idle sheet on solid #FF00FF.

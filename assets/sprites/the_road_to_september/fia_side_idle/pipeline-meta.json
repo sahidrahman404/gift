@@ -1,9 +1,9 @@
 {
   "target": "npc",
   "mode": "idle",
-  "prompt": "Same character corrected Fia side idle: warm brown hijab, deep indigo jeans jacket, black jeans pants, white sneakers; preserve Fia identity from references; side-view 2x2 pixel-art idle sheet on solid #FF00FF.",
+  "prompt": "Same character Fia side idle matched to fia_side_walk neutral frame: warm brown hijab, deep indigo jeans jacket, black jeans pants, white sneakers; match walk frame body height and outfit exactly; side-view 2x2 pixel-art idle sheet on solid #FF00FF.",
   "role": "",
-  "input": "/home/rahman/.codex/generated_images/019feacc-5a2e-78d2-8529-b2321d49ba8f/call_y2eK0snrXyBYwSxuagEuqm3b.png",
+  "input": "/home/rahman/.codex/generated_images/019feacc-5a2e-78d2-8529-b2321d49ba8f/call_8SkufmKXnklHqxP4GNVhURwp.png",
   "threshold": 100,
   "edge_threshold": 150,
   "duration": 800,
@@ -43,10 +43,10 @@
       "selected_component_area": null,
       "selected_component_bbox": null,
       "crop_bbox": [
-        298,
-        178,
-        433,
-        528
+        265,
+        143,
+        432,
+        540
       ],
       "edge_touch": false,
       "output_size": [
@@ -54,22 +54,22 @@
         64
       ],
       "preserved_subject_size": [
-        14,
-        36
+        17,
+        41
       ],
       "paste_position": [
-        298,
-        245
+        265,
+        198
       ],
       "unclamped_paste_position": [
-        298,
-        245
+        265,
+        198
       ],
       "paste_clamped": false,
       "aligned_bbox": [
-        298,
-        245,
-        433,
+        265,
+        198,
+        432,
         595
       ],
       "scale_changed": false,
@@ -78,7 +78,7 @@
         619,
         619
       ],
-      "shared_center_x": 365.5,
+      "shared_center_x": 348.5,
       "shared_feet_y": 595
     },
     {
@@ -97,10 +97,10 @@
       "selected_component_area": null,
       "selected_component_bbox": null,
       "crop_bbox": [
-        192,
-        178,
-        327,
-        528
+        189,
+        143,
+        355,
+        540
       ],
       "edge_touch": false,
       "output_size": [
@@ -108,22 +108,22 @@
         64
       ],
       "preserved_subject_size": [
-        14,
-        36
+        17,
+        41
       ],
       "paste_position": [
-        298,
-        245
+        266,
+        198
       ],
       "unclamped_paste_position": [
-        298,
-        245
+        266,
+        198
       ],
       "paste_clamped": false,
       "aligned_bbox": [
-        298,
-        245,
-        433,
+        266,
+        198,
+        432,
         595
       ],
       "scale_changed": false,
@@ -132,7 +132,7 @@
         619,
         619
       ],
-      "shared_center_x": 365.5,
+      "shared_center_x": 348.5,
       "shared_feet_y": 595
     },
     {
@@ -151,10 +151,10 @@
       "selected_component_area": null,
       "selected_component_bbox": null,
       "crop_bbox": [
-        298,
-        105,
-        433,
-        454
+        269,
+        84,
+        435,
+        479
       ],
       "edge_touch": false,
       "output_size": [
@@ -162,22 +162,22 @@
         64
       ],
       "preserved_subject_size": [
-        14,
-        36
+        17,
+        41
       ],
       "paste_position": [
-        298,
-        246
+        266,
+        200
       ],
       "unclamped_paste_position": [
-        298,
-        246
+        266,
+        200
       ],
       "paste_clamped": false,
       "aligned_bbox": [
-        298,
-        246,
-        433,
+        266,
+        200,
+        432,
         595
       ],
       "scale_changed": false,
@@ -186,7 +186,7 @@
         619,
         619
       ],
-      "shared_center_x": 365.5,
+      "shared_center_x": 348.5,
       "shared_feet_y": 595
     },
     {
@@ -205,10 +205,10 @@
       "selected_component_area": null,
       "selected_component_bbox": null,
       "crop_bbox": [
-        192,
-        105,
-        327,
-        454
+        186,
+        84,
+        350,
+        479
       ],
       "edge_touch": false,
       "output_size": [
@@ -216,22 +216,22 @@
         64
       ],
       "preserved_subject_size": [
-        14,
-        36
+        17,
+        41
       ],
       "paste_position": [
-        298,
-        246
+        266,
+        200
       ],
       "unclamped_paste_position": [
-        298,
-        246
+        266,
+        200
       ],
       "paste_clamped": false,
       "aligned_bbox": [
-        298,
-        246,
-        433,
+        266,
+        200,
+        430,
         595
       ],
       "scale_changed": false,
@@ -240,7 +240,7 @@
         619,
         619
       ],
-      "shared_center_x": 365.5,
+      "shared_center_x": 348.5,
       "shared_feet_y": 595
     }
   ],
