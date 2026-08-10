@@ -25,6 +25,7 @@ This folder is the canonical location for character, cat, scooter, and memory-pr
 | Honda BeAT memory scooter | `honda_beat_memory_scooter/sheet-transparent.png` |
 | Two-up scooter | `two_up_scooter/sheet-transparent.png` |
 | Alone scooter | `alone_scooter/sheet-transparent.png` |
+| Alone scooter run | `alone_scooter_run/sheet-transparent.png` |
 | Shared cinema chair | `shared_cinema_chair/sheet-transparent.png` |
 | Bubu idle | `bubu_idle/sheet-transparent.png` |
 | Cemplung idle | `cemplung_idle/sheet-transparent.png` |

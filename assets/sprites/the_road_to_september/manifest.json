@@ -4,7 +4,8 @@
   "sprites": {
     "two_up_scooter": "assets/sprites/the_road_to_september/two_up_scooter/sheet-transparent.png",
     "two_up_scooter_run": "assets/sprites/the_road_to_september/two_up_scooter_run/sheet-transparent.png",
-    "alone_scooter": "assets/sprites/the_road_to_september/alone_scooter/sheet-transparent.png"
+    "alone_scooter": "assets/sprites/the_road_to_september/alone_scooter/sheet-transparent.png",
+    "alone_scooter_run": "assets/sprites/the_road_to_september/alone_scooter_run/sheet-transparent.png"
   },
   "cats": {
     "bubu": "assets/sprites/the_road_to_september/bubu_idle/sheet-transparent.png",
