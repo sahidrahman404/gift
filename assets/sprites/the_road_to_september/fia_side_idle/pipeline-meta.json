@@ -1,27 +1,30 @@
 {
   "target": "npc",
-  "mode": "single",
-  "prompt": "Fia side idle regenerated to remove right-side crop; cozy retro pixel art, brown hijab, deep indigo jacket, shorter than Rahman, transparent-ready magenta background.",
+  "mode": "idle",
+  "prompt": "Same character corrected Fia side idle: warm brown hijab, deep indigo jeans jacket, black jeans pants, white sneakers; preserve Fia identity from references; side-view 2x2 pixel-art idle sheet on solid #FF00FF.",
   "role": "",
-  "input": "assets/sprites/the_road_to_september/fia_side_idle/raw-sheet.png",
+  "input": "/home/rahman/.codex/generated_images/019feacc-5a2e-78d2-8529-b2321d49ba8f/call_y2eK0snrXyBYwSxuagEuqm3b.png",
   "threshold": 100,
   "edge_threshold": 150,
-  "duration": 200,
-  "rows": 1,
-  "cols": 1,
+  "duration": 800,
+  "rows": 2,
+  "cols": 2,
   "cell_size": 64,
-  "fit_scale": 0.85,
+  "fit_scale": 0.92,
   "trim_border": 4,
   "edge_clean_depth": 3,
   "align": "feet",
-  "shared_scale": false,
+  "shared_scale": true,
   "scale_strategy": "preserve",
   "component_mode": "all",
   "component_padding": 0,
   "min_component_area": 1,
   "edge_touch_margin": 0,
   "frame_labels": [
-    "fia_side_idle-1"
+    "fia_side_idle-1",
+    "fia_side_idle-2",
+    "fia_side_idle-3",
+    "fia_side_idle-4"
   ],
   "frames": [
     {
@@ -32,6 +35,168 @@
       "source_box": [
         0,
         0,
+        627,
+        627
+      ],
+      "component_mode": "all",
+      "component_count": 1,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        298,
+        178,
+        433,
+        528
+      ],
+      "edge_touch": false,
+      "output_size": [
+        64,
+        64
+      ],
+      "preserved_subject_size": [
+        14,
+        36
+      ],
+      "paste_position": [
+        298,
+        245
+      ],
+      "unclamped_paste_position": [
+        298,
+        245
+      ],
+      "paste_clamped": false,
+      "aligned_bbox": [
+        298,
+        245,
+        433,
+        595
+      ],
+      "scale_changed": false,
+      "scale_strategy": "preserve",
+      "preserve_source_size": [
+        619,
+        619
+      ],
+      "shared_center_x": 365.5,
+      "shared_feet_y": 595
+    },
+    {
+      "grid": [
+        0,
+        1
+      ],
+      "source_box": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "component_mode": "all",
+      "component_count": 1,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        192,
+        178,
+        327,
+        528
+      ],
+      "edge_touch": false,
+      "output_size": [
+        64,
+        64
+      ],
+      "preserved_subject_size": [
+        14,
+        36
+      ],
+      "paste_position": [
+        298,
+        245
+      ],
+      "unclamped_paste_position": [
+        298,
+        245
+      ],
+      "paste_clamped": false,
+      "aligned_bbox": [
+        298,
+        245,
+        433,
+        595
+      ],
+      "scale_changed": false,
+      "scale_strategy": "preserve",
+      "preserve_source_size": [
+        619,
+        619
+      ],
+      "shared_center_x": 365.5,
+      "shared_feet_y": 595
+    },
+    {
+      "grid": [
+        1,
+        0
+      ],
+      "source_box": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "component_mode": "all",
+      "component_count": 1,
+      "selected_component_area": null,
+      "selected_component_bbox": null,
+      "crop_bbox": [
+        298,
+        105,
+        433,
+        454
+      ],
+      "edge_touch": false,
+      "output_size": [
+        64,
+        64
+      ],
+      "preserved_subject_size": [
+        14,
+        36
+      ],
+      "paste_position": [
+        298,
+        246
+      ],
+      "unclamped_paste_position": [
+        298,
+        246
+      ],
+      "paste_clamped": false,
+      "aligned_bbox": [
+        298,
+        246,
+        433,
+        595
+      ],
+      "scale_changed": false,
+      "scale_strategy": "preserve",
+      "preserve_source_size": [
+        619,
+        619
+      ],
+      "shared_center_x": 365.5,
+      "shared_feet_y": 595
+    },
+    {
+      "grid": [
+        1,
+        1
+      ],
+      "source_box": [
+        627,
+        627,
         1254,
         1254
       ],
@@ -40,10 +205,10 @@
       "selected_component_area": null,
       "selected_component_bbox": null,
       "crop_bbox": [
-        335,
-        297,
-        602,
-        966
+        192,
+        105,
+        327,
+        454
       ],
       "edge_touch": false,
       "output_size": [
@@ -51,55 +216,33 @@
         64
       ],
       "preserved_subject_size": [
-        19,
-        47
+        14,
+        36
       ],
       "paste_position": [
-        335,
-        484
+        298,
+        246
       ],
       "unclamped_paste_position": [
-        335,
-        484
+        298,
+        246
       ],
       "paste_clamped": false,
       "aligned_bbox": [
-        335,
-        484,
-        602,
-        1153
+        298,
+        246,
+        433,
+        595
       ],
       "scale_changed": false,
       "scale_strategy": "preserve",
       "preserve_source_size": [
-        1246,
-        1246
+        619,
+        619
       ],
-      "shared_center_x": 468.5,
-      "shared_feet_y": 1153,
-      "normalized_subject_size": [
-        19,
-        47
-      ],
-      "normalization": {
-        "reason": "Fia adjusted to be only slightly shorter than Rahman canon.",
-        "old_subject_size": [
-          15,
-          38
-        ],
-        "new_subject_size": [
-          19,
-          47
-        ],
-        "paste_position": [
-          22,
-          13
-        ],
-        "right_margin": 23,
-        "method": "nearest-neighbor deterministic transparent-frame reprocess"
-      }
+      "shared_center_x": 365.5,
+      "shared_feet_y": 595
     }
   ],
-  "edge_touch_frames": [],
-  "manual_reprocess": "Fia adjusted to be only slightly shorter than Rahman canon."
+  "edge_touch_frames": []
 }
