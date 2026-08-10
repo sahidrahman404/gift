@@ -50,6 +50,40 @@
     }
   },
   {
+    "id": "alone_scooter",
+    "displayName": "Rahman on BeAT",
+    "role": "player",
+    "frame": { "w": 64, "h": 64 },
+    "recommendedScale": 2,
+    "animations": {
+      "idle_side": {
+        "sheet": "assets/sprites/the_road_to_september/alone_scooter/sheet-transparent.png",
+        "meta": "assets/sprites/the_road_to_september/alone_scooter/pipeline-meta.json"
+      },
+      "walk_side": {
+        "sheet": "assets/sprites/the_road_to_september/alone_scooter_run/sheet-transparent.png",
+        "meta": "assets/sprites/the_road_to_september/alone_scooter_run/pipeline-meta.json"
+      }
+    }
+  },
+  {
+    "id": "two_up_scooter",
+    "displayName": "Rahman and Fia on BeAT",
+    "role": "player",
+    "frame": { "w": 64, "h": 64 },
+    "recommendedScale": 2,
+    "animations": {
+      "idle_side": {
+        "sheet": "assets/sprites/the_road_to_september/two_up_scooter/sheet-transparent.png",
+        "meta": "assets/sprites/the_road_to_september/two_up_scooter/pipeline-meta.json"
+      },
+      "walk_side": {
+        "sheet": "assets/sprites/the_road_to_september/two_up_scooter_run/sheet-transparent.png",
+        "meta": "assets/sprites/the_road_to_september/two_up_scooter_run/pipeline-meta.json"
+      }
+    }
+  },
+  {
     "id": "cemplung",
     "displayName": "Cemplung",
     "role": "cat",

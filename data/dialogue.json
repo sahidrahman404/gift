@@ -3,49 +3,136 @@
     "memory_bumble_beginning": {
       "title": "The Beginning",
       "lines": [
-        "It started with a small swipe on Bumble.",
-        "Not a grand plan. Just two people deciding to say hello.",
-        "And somehow, that ordinary hello kept moving forward."
+        "Bumble. Another match.",
+        "Most chats fade after a day. Ours didn't.",
+        "There was something about the way you talked. I kept smiling at my phone like an idiot.",
+        "Days of this, and it wasn't enough anymore.",
+        "I didn't want a screen between us. I wanted to actually meet you.",
+        "So I asked."
       ]
     },
     "memory_uniqlo_first_meeting": {
       "title": "Uniqlo",
       "lines": [
-        "The first time we met in person was at Uniqlo.",
-        "I said I needed to buy pants, which is not exactly a movie-scene reason to meet someone.",
-        "But it was real. It was simple. And I still remember it."
+        "Early September. A Sunday night.",
+        "The weather was just right. Not hot, no rain. The kind of night that makes you feel like something good is coming.",
+        "Our first date. Uniqlo, of all places.",
+        "I needed new pants. Not the most romantic start, I know.",
+        "And then you walked in.",
+        "Deep indigo denim jacket. A brown tee. Black pants.",
+        "You looked effortless. Like you weren't even trying, and that was the whole point.",
+        "You looked at me, then at the racks, and just knew.",
+        "Khaki chinos. You handed them to me like it was obvious.",
+        "And you were right. Of course you were right.",
+        "I stood there realizing something: you could see a version of me I'd never managed to see myself.",
+        "Two years later, you still can.",
+        "We rode off together. You behind me on the black BeAT, arms around me.",
+        "I didn't know it that night.",
+        "But I was never going to ride alone again."
       ]
     },
     "memory_marugame_first_meal": {
       "title": "Marugame Udon",
       "lines": [
-        "After Uniqlo, we ate together at Marugame Udon.",
-        "That was our first meal, and it belongs right after that first meeting.",
-        "A small bowl of food became the start of many ordinary meals I would remember."
+        "After Uniqlo, we were hungry. Marugame Udon.",
+        "Two bowls of niku udon. Cups of ocha, steam rising between us.",
+        "Nothing fancy. But somewhere between the first bite and the last, I stopped being nervous.",
+        "The conversation didn't run out. It never ran out.",
+        "I remember thinking. I could do this again. And again."
+      ]
+    },
+    "memory_cinema_lembayung": {
+      "title": "Lembayung",
+      "lines": [
+        "Then, the cinema. Our first movie together. Lembayung.",
+        "Horror. And I found out we both love it. The dread, the dark, the jump scares.",
+        "One small difference, though.",
+        "You sit there calm. Barely flinch. Watch the scariest parts dead in the eye.",
+        "And me? Jacket up over my face, peeking through a gap, whispering is it over, is it over.",
+        "You just laugh at me. Every time.",
+        "Two horror lovers. One brave, one hiding behind a jacket.",
+        "I wouldn't trade it."
+      ]
+    },
+    "memory_horror_nights": {
+      "title": "The Horror Nights",
+      "lines": [
+        "After Lembayung, we couldn't stop.",
+        "Every horror movie we could find, we found them together.",
+        "Pengepungan Bukit Duri. Final Destination Bloodlines. 28 Years Later. The Housemaid. Weapons. The Mummy. Black Phone 2. Hokum. Obsession. Backrooms.",
+        "And Weapons. That's the one that got me the worst.",
+        "Jacket all the way up. I think I watched half of it through a gap in the sleeve.",
+        "You barely blinked.",
+        "You, calm as ever. Me, hiding. Every single time.",
+        "Side by side for all of them."
+      ]
+    },
+    "memory_macaroni_schotel": {
+      "title": "Macaroni Schotel",
+      "lines": [
+        "One day, you cooked for me.",
+        "Macaroni schotel. The first thing you ever made me.",
+        "I still remember the first bite. That this came from your hands, for me.",
+        "I'd always hoped for someone who could make a place feel like home.",
+        "Turns out you were already doing it."
+      ]
+    },
+    "memory_food_explorer": {
+      "title": "The Food We Chased",
+      "lines": [
+        "Turns out we both loved the same thing: chasing good food.",
+        "Viral places, hidden gems, tiny hawker stalls. If it was good, we found it.",
+        "Nasi Uduk Kebon Kacang. Belah Duren. Taichan Siram. Yakudo Ramen. Kanaka. Sushi Matsuki. Obihiro. Kwetiaw Asap Medan. Nogura. Andi Soto. Sinar Minang Baru.",
+        "Every weekend, somewhere new. Or somewhere old that we loved too much to leave alone.",
+        "Me in front, you behind me, the whole city smelling like something delicious."
+      ]
+    },
+    "memory_berselesa": {
+      "title": "Berselesa",
+      "lines": [
+        "There was one place. Berselesa. A little coffee shop that happened to make food we loved.",
+        "Nasi goreng and an americano. Every time, the same order.",
+        "We always went at night. Always up on the second floor.",
+        "No smoke up there, the AC was good, and it was quiet. Just us.",
+        "We went back again and again.",
+        "It's closed now. Permanently. We can't go anymore.",
+        "Some places don't get to stay.",
+        "But we did. We got to stay."
+      ]
+    },
+    "memory_sushi_kintaro": {
+      "title": "Kintaro",
+      "lines": [
+        "Funny story. One night we were too late for Obihiro. They were closing.",
+        "So we ended up at a sushi place instead. Somewhere I'd never have chosen.",
+        "Because I always said I didn't like sushi.",
+        "Then I dared myself. A place nearby. Kintaro.",
+        "Chuka idako. Sashimi. All of it.",
+        "I found out I didn't hate sushi at all. I just hadn't tried it with you.",
+        "You keep doing that. Opening doors in me I didn't know were closed."
       ]
     },
     "memory_tuku_after_work": {
       "title": "Tuku After Work",
       "lines": [
-        "At first, I did not understand why you liked going to Tuku so much.",
-        "You told me kopi susu tetangga was better without sugar. I was not convinced.",
-        "So I ordered sugar on the side, did not use it, and still thought it would be wasteful not to ask for it."
-      ]
-    },
-    "memory_honda_beat_rides": {
-      "title": "Honda Beat Rides",
-      "lines": [
-        "Then there was that month when we went almost every evening after work.",
-        "We rode the Honda Beat, got coffee or food, and usually had no special plan.",
-        "Those ordinary rides became one of the parts I treasure most."
+        "After work, we had a place. Tuku. Kopi susu tetangga, every time.",
+        "First time I tried it, I couldn't drink it without sugar. Too much for me.",
+        "You told me it's better without. No sugar. Trust you.",
+        "You were right. Of course you were right. It is better without.",
+        "But I felt like I was losing money buying it plain.",
+        "So now? I get the sugar on the side. Every time.",
+        "I never use it. It just sits there.",
+        "You laugh at me. I don't care. It's my sugar I'm not using."
       ]
     },
     "memory_cat_cemplung": {
       "title": "Cemplung",
       "lines": [
+        "You have four cats. Bubu. Mumu. Sisil. Cemplung.",
+        "The first time I came over, they scattered. Bolted the second I walked in.",
         "Cemplung was the first one who stopped running away from me.",
-        "I thought maybe I had finally earned his trust.",
-        "Later I learned he may have been pretending his leg hurt, which is also very Cemplung."
+        "I thought maybe I'd finally earned his trust.",
+        "Later I learned he may have been faking a sore leg for attention, which is also very Cemplung."
       ]
     },
     "memory_cat_mumu": {
@@ -61,15 +148,31 @@
       "lines": [
         "Then Sisil stopped running away.",
         "Not all at once, not dramatically. Just a little closer than before.",
-        "That was enough to make me feel like I was slowly becoming part of your world."
+        "Enough to make me feel like I was slowly becoming part of your world."
       ]
     },
     "memory_cat_bubu": {
       "title": "Bubu",
       "lines": [
         "Bubu was last, of course.",
-        "She is cute, moody, and has scratched me twice, so her approval had conditions.",
-        "When even Bubu stopped running away, it felt like the whole family had finally let me in."
+        "Cute, moody, and she's scratched me twice, so her approval had conditions.",
+        "When even Bubu stopped running away, it felt like the whole family had finally let me in.",
+        "Four cats decided I belong here.",
+        "And somewhere along the way, so did I."
+      ]
+    },
+    "memory_september": {
+      "title": "September",
+      "lines": [
+        "Two years.",
+        "Uniqlo to here. A stranger's cats to a home. Every meal, every movie, every ride on the BeAT.",
+        "It started on a September night. The weather just right. Something good coming.",
+        "And here we are. September again.",
+        "There's a road ahead I can't see the end of.",
+        "But I know who's on the back of my bike.",
+        "Arms around me. Like always.",
+        "I'm not done walking with you.",
+        "Not even close."
       ]
     }
   }

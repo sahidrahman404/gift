@@ -4,16 +4,23 @@ function clamp(v, min, max) {
   return Math.max(min, Math.min(max, v));
 }
 
-export function createPlayer(level) {
+export function createPlayer(level, movementModes = {}) {
   const cfg = level.player;
   if (!cfg) return null;
+  const mode = cfg.mode ?? 'on_foot';
+  const modeCfg = cfg.modes?.[mode] ?? {};
+  const modeDefaults = movementModes?.[mode] ?? {};
 
   return {
-    characterId: cfg.characterId,
+    baseCharacterId: cfg.characterId,
+    characterId: modeCfg.characterId ?? cfg.characterId,
+    mode,
+    modes: cfg.modes ?? {},
+    movementModes,
     x: cfg.position?.x ?? level.spawn?.x ?? 0,
-    y: cfg.position?.y ?? level.spawn?.y ?? 0,
+    y: modeCfg.y ?? cfg.position?.y ?? level.spawn?.y ?? 0,
     speed: cfg.speed,
-    scale: cfg.drawScale,
+    scale: modeCfg.drawScale ?? modeDefaults.drawScale ?? cfg.drawScale,
     facing: cfg.facing ?? 'right',
     controls: cfg.controls ?? {},
     bounds: cfg.movementBounds ?? { x: 0, y: 0, w: level.mapSize?.width ?? 0, h: level.mapSize?.height ?? 0 },
@@ -39,6 +46,21 @@ export function updatePlayer(player, dt) {
   const b = player.bounds;
   player.x = clamp(player.x, b.x, b.x + b.w);
   player.y = clamp(player.y, b.y, b.y + b.h);
+}
+
+export function setPlayerMode(player, mode, position = null, drawScale = null) {
+  if (!player || !mode || player.mode === mode && !position && drawScale == null) return;
+
+  const modeCfg = player.modes?.[mode] ?? {};
+  const modeDefaults = player.movementModes?.[mode] ?? {};
+  player.mode = mode;
+  player.characterId = modeCfg.characterId ?? player.baseCharacterId;
+  player.scale = drawScale ?? modeCfg.drawScale ?? modeDefaults.drawScale ?? player.scale;
+  if (Number.isFinite(modeCfg.y)) player.y = modeCfg.y;
+  if (position) {
+    if (Number.isFinite(position.x)) player.x = position.x;
+    if (Number.isFinite(position.y)) player.y = position.y;
+  }
 }
 
 export function getPlayerSprite(player, character) {

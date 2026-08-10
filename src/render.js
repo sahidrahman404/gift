@@ -9,7 +9,7 @@ const camera = { x: 0, y: 0, scale: 1 };
 export function initRenderer(c, x) { canvas = c; ctx = x; }
 
 export function fitCanvas(level) {
-  const m = level.mapSize ?? { width: 1280, height: 720 };
+  const m = level.viewport ?? { width: 720, height: 720 };
   if (canvas.width !== m.width) canvas.width = m.width;
   if (canvas.height !== m.height) canvas.height = m.height;
 }
@@ -18,13 +18,27 @@ export function setCamera(x, y, scale = 1) { camera.x = x; camera.y = y; camera.
 export function sx(x) { return (x - camera.x) * camera.scale; }
 export function sy(y) { return (y - camera.y) * camera.scale; }
 
-export function drawBackground(image) {
-  if (image) {
-    ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
-  } else {
+export function drawBackground(image, previousImage = null, fade = 1, worldX = 0, previousWorldX = 0) {
+  if (!image && !previousImage) {
     ctx.fillStyle = '#1a1a1a';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
+    return;
   }
+
+  ctx.save();
+  if (previousImage && previousImage !== image && fade < 1) {
+    ctx.globalAlpha = 1;
+    drawWorldImage(previousImage, previousWorldX);
+    ctx.globalAlpha = fade;
+    if (image) drawWorldImage(image, worldX);
+  } else if (image) {
+    drawWorldImage(image, worldX);
+  }
+  ctx.restore();
+}
+
+function drawWorldImage(image, worldX) {
+  ctx.drawImage(image, Math.round(sx(worldX)), Math.round(sy(0)), image.naturalWidth, image.naturalHeight);
 }
 
 export function drawSprite(sprite, image, elapsedSec) {
@@ -60,10 +74,10 @@ export function drawSprite(sprite, image, elapsedSec) {
 export function drawDialogue(dialogue) {
   if (!dialogue) return;
 
-  const margin = 44;
-  const boxH = 150;
+  const margin = 24;
+  const boxH = 178;
   const x = margin;
-  const y = canvas.height - boxH - margin;
+  const y = margin;
   const w = canvas.width - margin * 2;
 
   ctx.save();
@@ -74,20 +88,20 @@ export function drawDialogue(dialogue) {
   ctx.strokeRect(x, y, w, boxH);
 
   ctx.fillStyle = '#ffd89a';
-  ctx.font = '700 22px system-ui, sans-serif';
-  ctx.fillText(dialogue.title, x + 26, y + 38);
+  ctx.font = '700 20px system-ui, sans-serif';
+  ctx.fillText(dialogue.title, x + 22, y + 34);
 
   ctx.fillStyle = '#fff4df';
-  ctx.font = '22px system-ui, sans-serif';
-  wrapText(dialogue.line, x + 26, y + 78, w - 52, 30);
+  ctx.font = '18px system-ui, sans-serif';
+  wrapText(dialogue.line, x + 22, y + 70, w - 44, 25, y + boxH - 44);
 
   ctx.fillStyle = '#d7b891';
   ctx.font = '15px system-ui, sans-serif';
-  ctx.fillText('Press Space or Enter', x + w - 190, y + boxH - 22);
+  ctx.fillText('Press Space or Enter', x + w - 184, y + boxH - 20);
   ctx.restore();
 }
 
-function wrapText(text, x, y, maxWidth, lineHeight) {
+function wrapText(text, x, y, maxWidth, lineHeight, maxY = Infinity) {
   const words = String(text).split(' ');
   let line = '';
   for (const word of words) {
@@ -96,6 +110,7 @@ function wrapText(text, x, y, maxWidth, lineHeight) {
       ctx.fillText(line, x, y);
       line = word;
       y += lineHeight;
+      if (y > maxY) return;
     } else {
       line = test;
     }

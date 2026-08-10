@@ -1,63 +1,201 @@
 {
   "id": "level1",
-  "background": "assets/maps/level1.png",
-  "mapSize": { "width": 1280, "height": 720 },
+  "title": "Level 1 - First Date Template",
+  "background": "assets/maps/the_road_to_september/road_night.png",
+  "mapSize": { "width": 3840, "height": 720 },
+  "viewport": { "width": 720, "height": 720 },
+  "backgroundFadeSeconds": 0.45,
   "spawn": { "x": 128, "y": 600 },
   "player": {
-    "characterId": "rahman",
+    "characterId": "alone_scooter",
+    "mode": "ride_alone",
     "position": { "x": 128, "y": 600 },
-    "speed": 135,
+    "speed": 185,
     "drawScale": 2,
     "facing": "right",
-    "movementBounds": { "x": 32, "y": 0, "w": 1216, "h": 720 },
+    "movementBounds": { "x": 32, "y": 0, "w": 3776, "h": 720 },
     "controls": {
-      "left": ["ArrowLeft", "KeyA"],
+      "left": [],
       "right": ["ArrowRight", "KeyD"]
+    },
+    "modes": {
+      "ride_alone": {
+        "characterId": "alone_scooter",
+        "y": 600
+      },
+      "ride_two_up": {
+        "characterId": "two_up_scooter",
+        "y": 600
+      },
+      "on_foot": {
+        "characterId": "rahman",
+        "y": 600
+      }
     }
   },
+  "backgroundZones": [
+    {
+      "id": "bg_road_night",
+      "background": "road_night",
+      "image": "assets/maps/the_road_to_september/road_night.png",
+      "shape": { "x": 0, "y": 0, "w": 1280, "h": 720 }
+    },
+    {
+      "id": "bg_uniqlo",
+      "background": "uniqlo",
+      "image": "assets/maps/the_road_to_september/uniqlo.png",
+      "shape": { "x": 1280, "y": 0, "w": 1280, "h": 720 }
+    },
+    {
+      "id": "bg_marugame",
+      "background": "marugame",
+      "image": "assets/maps/the_road_to_september/marugame.png",
+      "shape": { "x": 2560, "y": 0, "w": 1280, "h": 720 }
+    }
+  ],
+  "modeZones": [
+    {
+      "id": "mode_road_alone",
+      "playerMode": "ride_alone",
+      "companion": "hidden",
+      "shape": { "x": 0, "y": 0, "w": 1740, "h": 720 }
+    },
+    {
+      "id": "mode_after_uniqlo_two_up",
+      "playerMode": "ride_two_up",
+      "companion": "hidden",
+      "shape": { "x": 1740, "y": 0, "w": 820, "h": 720 }
+    },
+    {
+      "id": "mode_marugame_on_foot",
+      "playerMode": "on_foot",
+      "companion": "fia_walks",
+      "shape": { "x": 2560, "y": 0, "w": 1280, "h": 720 }
+    }
+  ],
   "npcs": [
     {
       "id": "fia_level1",
       "characterId": "fia",
-      "position": { "x": 1040, "y": 600 },
-      "drawScale": 2,
+      "position": { "x": 1855, "y": 600 },
+      "marugamePosition": { "x": 3060, "y": 600 },
       "facing": "left",
-      "animation": "idle_side"
+      "animation": "idle_side",
+      "visible": false,
+      "modeVisibility": ["on_foot"],
+      "followPlayer": {
+        "enabled": true,
+        "offsetX": 130,
+        "minX": 2580,
+        "maxX": 3740
+      }
     }
   ],
   "memoryTriggers": [
     {
       "id": "memory_bumble_beginning_zone",
       "dialogueId": "memory_bumble_beginning",
-      "shape": { "x": 410, "y": 430, "w": 220, "h": 230 },
-      "once": true
+      "shape": { "x": 430, "y": 430, "w": 220, "h": 230 },
+      "once": true,
+      "startState": {
+        "playerMode": "ride_alone",
+        "npcStates": [
+          { "id": "fia_level1", "visible": false }
+        ]
+      },
+      "completeState": {
+        "playerMode": "ride_alone"
+      }
     },
     {
       "id": "memory_uniqlo_first_meeting_zone",
       "dialogueId": "memory_uniqlo_first_meeting",
-      "shape": { "x": 680, "y": 430, "w": 180, "h": 230 },
-      "once": true
+      "shape": { "x": 1620, "y": 430, "w": 220, "h": 230 },
+      "once": true,
+      "startState": {
+        "playerMode": "ride_alone",
+        "npcStates": [
+          { "id": "fia_level1", "visible": false }
+        ]
+      },
+      "lineEvents": [
+        {
+          "lineIndex": 4,
+          "playerMode": "on_foot",
+          "playerPosition": { "x": 1730, "y": 600 },
+          "npcStates": [
+            {
+              "id": "fia_level1",
+              "visible": true,
+              "position": { "x": 1855, "y": 600 },
+              "animation": "idle_side",
+              "facing": "left"
+            }
+          ]
+        },
+        {
+          "lineIndex": 12,
+          "playerMode": "ride_two_up",
+          "playerPosition": { "x": 1870, "y": 600 },
+          "npcStates": [
+            { "id": "fia_level1", "visible": false }
+          ]
+        }
+      ],
+      "completeState": {
+        "playerMode": "ride_two_up",
+        "npcStates": [
+          { "id": "fia_level1", "visible": false }
+        ]
+      }
     },
     {
       "id": "memory_marugame_first_meal_zone",
       "dialogueId": "memory_marugame_first_meal",
-      "shape": { "x": 920, "y": 430, "w": 190, "h": 230 },
-      "once": true
+      "shape": { "x": 2860, "y": 430, "w": 260, "h": 230 },
+      "once": true,
+      "startState": {
+        "playerMode": "on_foot",
+        "playerPosition": { "x": 2932, "y": 600 },
+        "npcStates": [
+          {
+            "id": "fia_level1",
+            "visible": true,
+            "position": { "x": 3060, "y": 600 },
+            "animation": "idle_side",
+            "facing": "left"
+          }
+        ]
+      },
+      "completeState": {
+        "playerMode": "on_foot",
+        "npcStates": [
+          {
+            "id": "fia_level1",
+            "visible": true,
+            "position": { "x": 3060, "y": 600 }
+          }
+        ]
+      }
     }
   ],
-  "sceneExits": [
-    {
-      "id": "to_tuku_after_work",
-      "targetLevel": "level_tuku",
-      "shape": { "x": 1160, "y": 430, "w": 90, "h": 230 }
-    }
-  ],
+  "sceneExits": [],
   "exits": {},
   "zones": {
     "memories": [
-      { "id": "memory_bumble_beginning_zone", "x": 410, "y": 430, "w": 220, "h": 230 },
-      { "id": "memory_uniqlo_first_meeting_zone", "x": 680, "y": 430, "w": 180, "h": 230 },
-      { "id": "memory_marugame_first_meal_zone", "x": 920, "y": 430, "w": 190, "h": 230 }
+      { "id": "memory_bumble_beginning_zone", "x": 430, "y": 430, "w": 220, "h": 230 },
+      { "id": "memory_uniqlo_first_meeting_zone", "x": 1620, "y": 430, "w": 220, "h": 230 },
+      { "id": "memory_marugame_first_meal_zone", "x": 2860, "y": 430, "w": 260, "h": 230 }
+    ],
+    "backgrounds": [
+      { "id": "bg_road_night", "x": 0, "y": 0, "w": 1280, "h": 720 },
+      { "id": "bg_uniqlo", "x": 1280, "y": 0, "w": 1280, "h": 720 },
+      { "id": "bg_marugame", "x": 2560, "y": 0, "w": 1280, "h": 720 }
+    ],
+    "modes": [
+      { "id": "mode_road_alone", "x": 0, "y": 0, "w": 1740, "h": 720 },
+      { "id": "mode_after_uniqlo_two_up", "x": 1740, "y": 0, "w": 820, "h": 720 },
+      { "id": "mode_marugame_on_foot", "x": 2560, "y": 0, "w": 1280, "h": 720 }
     ]
   },
   "walkBounds": [],

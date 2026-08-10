@@ -1,0 +1,13 @@
+{
+  "modes": {
+    "ride_alone": {
+      "drawScale": 2
+    },
+    "ride_two_up": {
+      "drawScale": 2
+    },
+    "on_foot": {
+      "drawScale": 3.25
+    }
+  }
+}
