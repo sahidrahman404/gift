@@ -70,6 +70,7 @@
       "id": "mode_marugame_on_foot",
       "playerMode": "on_foot",
       "companion": "fia_walks",
+      "facing": "right",
       "shape": { "x": 2560, "y": 0, "w": 1280, "h": 720 }
     }
   ],
@@ -78,14 +79,15 @@
       "id": "fia_level1",
       "characterId": "fia",
       "position": { "x": 1855, "y": 600 },
-      "marugamePosition": { "x": 3060, "y": 600 },
+      "marugamePosition": { "x": 3004, "y": 600 },
       "facing": "left",
       "animation": "idle_side",
       "visible": false,
       "modeVisibility": ["on_foot"],
       "followPlayer": {
         "enabled": true,
-        "offsetX": 130,
+        "offsetX": 72,
+        "facing": "right",
         "minX": 2580,
         "maxX": 3740
       }
@@ -156,24 +158,27 @@
       "once": true,
       "startState": {
         "playerMode": "on_foot",
+        "playerFacing": "right",
         "playerPosition": { "x": 2932, "y": 600 },
         "npcStates": [
           {
             "id": "fia_level1",
             "visible": true,
-            "position": { "x": 3060, "y": 600 },
+            "position": { "x": 3004, "y": 600 },
             "animation": "idle_side",
-            "facing": "left"
+            "facing": "right"
           }
         ]
       },
       "completeState": {
         "playerMode": "on_foot",
+        "playerFacing": "right",
         "npcStates": [
           {
             "id": "fia_level1",
             "visible": true,
-            "position": { "x": 3060, "y": 600 }
+            "position": { "x": 3004, "y": 600 },
+            "facing": "right"
           }
         ]
       }

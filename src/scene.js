@@ -207,6 +207,7 @@ function applyModeZones() {
       visible: zone.companion !== 'hidden' && npc.modeVisibility?.includes(zone.playerMode),
       position: zone.playerMode === 'on_foot' && npc.marugamePosition ? npc.marugamePosition : undefined,
       drawScale: zone.drawScale,
+      facing: zone.facing,
     })),
   });
 }
@@ -230,6 +231,7 @@ function applySceneState(state) {
     if (Number.isFinite(state.playerPosition.x)) player.x = state.playerPosition.x;
     if (Number.isFinite(state.playerPosition.y)) player.y = state.playerPosition.y;
   }
+  if (state.playerFacing && player) player.facing = state.playerFacing;
 
   for (const npcState of state.npcStates ?? []) {
     const npc = current.npcs?.find((n) => n.id === npcState.id);
@@ -283,7 +285,7 @@ function updateNpcFollowers() {
       x: clamp(player.x + (follow.offsetX ?? 72), follow.minX ?? -Infinity, follow.maxX ?? Infinity),
       y: player.y,
     };
-    npc.facing = player.facing === 'right' ? 'left' : 'right';
+    npc.facing = follow.facing ?? (player.facing === 'right' ? 'left' : 'right');
     npc.animation = player.state === 'walk' ? 'walk_side' : 'idle_side';
   }
 }
