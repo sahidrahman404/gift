@@ -1,1 +1,1 @@
-Rahman side idle base sprite, same canon as Rahman front, cozy retro pixel art, brown jacket, transparent-ready magenta background.
+Same character, new animation: Rahman side idle remade smaller/narrower to match rahman_side_walk scale; preserve hair, face, brown jacket, white shirt, blue pants, shoes, cozy nostalgic pixel style.

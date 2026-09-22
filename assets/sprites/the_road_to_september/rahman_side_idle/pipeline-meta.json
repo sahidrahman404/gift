@@ -1,27 +1,30 @@
 {
   "target": "player",
-  "mode": "single",
-  "prompt": "Rahman side idle base sprite, same canon as Rahman front, cozy retro pixel art, brown jacket, transparent-ready magenta background.",
+  "mode": "idle",
+  "prompt": "Same character, new animation: Rahman side idle remade smaller/narrower to match rahman_side_walk scale; preserve hair, face, brown jacket, white shirt, blue pants, shoes, cozy nostalgic pixel style.",
   "role": "",
-  "input": "assets/sprites/the_road_to_september/rahman_side_idle/raw/raw-sheet.png",
+  "input": "/home/rahman/.codex/generated_images/01a0c970-1b9b-7513-9a6a-1e441b148533/call_UV1O6sSyNOvP1F3yKA0c82U3.png",
   "threshold": 100,
   "edge_threshold": 150,
   "duration": 200,
-  "rows": 1,
-  "cols": 1,
+  "rows": 2,
+  "cols": 2,
   "cell_size": 64,
   "fit_scale": 0.85,
   "trim_border": 4,
   "edge_clean_depth": 3,
   "align": "feet",
-  "shared_scale": false,
+  "shared_scale": true,
   "scale_strategy": "preserve",
-  "component_mode": "all",
-  "component_padding": 0,
+  "component_mode": "largest",
+  "component_padding": 8,
   "min_component_area": 1,
   "edge_touch_margin": 0,
   "frame_labels": [
-    "rahman_side_idle-1"
+    "rahman_side_idle-1",
+    "rahman_side_idle-2",
+    "rahman_side_idle-3",
+    "rahman_side_idle-4"
   ],
   "frames": [
     {
@@ -32,18 +35,23 @@
       "source_box": [
         0,
         0,
-        1024,
-        1536
+        627,
+        627
       ],
-      "component_mode": "all",
-      "component_count": 1,
-      "selected_component_area": null,
-      "selected_component_bbox": null,
+      "component_mode": "largest",
+      "component_count": 65,
+      "selected_component_area": 59391,
+      "selected_component_bbox": [
+        215,
+        119,
+        408,
+        559
+      ],
       "crop_bbox": [
-        345,
-        266,
-        699,
-        1205
+        207,
+        111,
+        416,
+        567
       ],
       "edge_touch": false,
       "output_size": [
@@ -51,55 +59,210 @@
         64
       ],
       "preserved_subject_size": [
-        29,
-        51
+        22,
+        47
       ],
       "paste_position": [
-        345,
-        475
+        208,
+        117
       ],
       "unclamped_paste_position": [
-        345,
-        475
+        208,
+        117
       ],
       "paste_clamped": false,
       "aligned_bbox": [
-        345,
-        475,
-        699,
-        1414
+        219,
+        128,
+        406,
+        565
       ],
       "scale_changed": false,
       "scale_strategy": "preserve",
       "preserve_source_size": [
-        1016,
-        1528
+        619,
+        619
       ],
-      "shared_center_x": 522.0,
-      "shared_feet_y": 1414,
-      "normalized_subject_size": [
-        29,
-        51
+      "shared_center_x": 312.0,
+      "shared_feet_y": 573
+    },
+    {
+      "grid": [
+        0,
+        1
       ],
-      "normalization": {
-        "reason": "Rahman side normalized to match Rahman front height canon.",
-        "old_subject_size": [
-          23,
-          41
-        ],
-        "new_subject_size": [
-          29,
-          51
-        ],
-        "paste_position": [
-          17,
-          9
-        ],
-        "right_margin": 18,
-        "method": "nearest-neighbor deterministic transparent-frame reprocess"
-      }
+      "source_box": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "component_mode": "largest",
+      "component_count": 61,
+      "selected_component_area": 59228,
+      "selected_component_bbox": [
+        216,
+        121,
+        408,
+        558
+      ],
+      "crop_bbox": [
+        208,
+        113,
+        416,
+        566
+      ],
+      "edge_touch": false,
+      "output_size": [
+        64,
+        64
+      ],
+      "preserved_subject_size": [
+        22,
+        47
+      ],
+      "paste_position": [
+        208,
+        120
+      ],
+      "unclamped_paste_position": [
+        208,
+        120
+      ],
+      "paste_clamped": false,
+      "aligned_bbox": [
+        218,
+        128,
+        405,
+        565
+      ],
+      "scale_changed": false,
+      "scale_strategy": "preserve",
+      "preserve_source_size": [
+        619,
+        619
+      ],
+      "shared_center_x": 312.0,
+      "shared_feet_y": 573
+    },
+    {
+      "grid": [
+        1,
+        0
+      ],
+      "source_box": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 56,
+      "selected_component_area": 59992,
+      "selected_component_bbox": [
+        217,
+        89,
+        408,
+        527
+      ],
+      "crop_bbox": [
+        209,
+        81,
+        416,
+        535
+      ],
+      "edge_touch": false,
+      "output_size": [
+        64,
+        64
+      ],
+      "preserved_subject_size": [
+        21,
+        47
+      ],
+      "paste_position": [
+        208,
+        119
+      ],
+      "unclamped_paste_position": [
+        208,
+        119
+      ],
+      "paste_clamped": false,
+      "aligned_bbox": [
+        217,
+        127,
+        404,
+        565
+      ],
+      "scale_changed": false,
+      "scale_strategy": "preserve",
+      "preserve_source_size": [
+        619,
+        619
+      ],
+      "shared_center_x": 312.0,
+      "shared_feet_y": 573
+    },
+    {
+      "grid": [
+        1,
+        1
+      ],
+      "source_box": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 42,
+      "selected_component_area": 59798,
+      "selected_component_bbox": [
+        215,
+        86,
+        408,
+        527
+      ],
+      "crop_bbox": [
+        207,
+        78,
+        416,
+        535
+      ],
+      "edge_touch": false,
+      "output_size": [
+        64,
+        64
+      ],
+      "preserved_subject_size": [
+        22,
+        47
+      ],
+      "paste_position": [
+        208,
+        116
+      ],
+      "unclamped_paste_position": [
+        208,
+        116
+      ],
+      "paste_clamped": false,
+      "aligned_bbox": [
+        219,
+        127,
+        406,
+        565
+      ],
+      "scale_changed": false,
+      "scale_strategy": "preserve",
+      "preserve_source_size": [
+        619,
+        619
+      ],
+      "shared_center_x": 312.0,
+      "shared_feet_y": 573
     }
   ],
-  "edge_touch_frames": [],
-  "manual_reprocess": "Rahman side normalized to match Rahman front height canon."
+  "edge_touch_frames": []
 }
